@@ -1,4 +1,4 @@
-:root { #variável de cor
+:root {#variável de cor
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
@@ -17,41 +17,41 @@ body {
 
 * {#seletoruniversal
     margin: 0;#tamanho da imagem
-    padding: 0;espaçamente
+    padding: 0;espaçamento interno
 }
 
 .principal {
-    background-image: url("Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    align-items: center;
-    text-align: center;
+    background-image: url("Background.png");# imagem como plano de fundo 
+    background-repeat: no-repeat;#imagem repetir apenas uma vez 
+    background-size: contain;#tamanho do plano de fundo
+    align-items: center;#alinhemento de elementos
+    text-align: center;#alinhamento de textos 
 }
 
 .container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    height: 100vh;#altura
+    display: grid;#organiza os elementos 
+    grid-template-columns: 50% 50%;#duas colunasde 50%
 }
 
 .container__botao {
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1em;
+    background-color: var(--botao-azul);#cor de fundo
+    border-radius: 5px;#cantos arrendondados
+    padding: 1em;#espaçamento interno
+    color: var(--branco-principal);#cor da fonte
+    display: block;#organiza os elementos
+    text-decoration: none;#reseta decoração de textos
+    margin-bottom: 1em;#margem inferior
 }
 
 .botao_secundario {
-    background-color: transparent;
+    background-color: transparent;#cor de fundo 
     border: 2px solid var(--branco-principal)
 }
 
 .container__aviso {
     font-size: 12px;
-    color: var(--cinza-secundario);
+    color: var(--cinza-secundario);#cor de fonte
 }
 
 .container__titulo {
@@ -60,11 +60,11 @@ body {
 }
 
 .container__imagem {
-    margin: 1em 0 2em 0;
+    margin: 1em 0 2em 0;#tamanho da imagem 
 }
 
 .container__caixa {
-    margin: 0 6em;
+    margin: 0 6em;#tamanho da imagem 
 }
 
 .secundario__imagem {
@@ -73,13 +73,13 @@ body {
 
 .secundario {
     align-items: center;
-    margin: 0 10em;
+    margin: 0 10em;#tamanho da imagem 
 }
 
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
-    color: var(--branco-principal);
+    color: var(--branco-principal);#cor de fonte
     margin-bottom: 0.1em;
 }
 
