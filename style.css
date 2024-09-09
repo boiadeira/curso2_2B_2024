@@ -10,9 +10,9 @@
 body { 
     background-color: var(--cor-de-fundo);#cor de fundo
     color: var(--branco-principal);#mudar a cor da fonte
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--fonte-principal);#estilo de fontes
+    font-size: 16px;#tamanho da fonte
+    font-weight: 400;#largura da fonte
 }
 
 * {
