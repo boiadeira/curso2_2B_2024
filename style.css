@@ -21,31 +21,31 @@ body {
 }
 
 .principal {
-    background-image: url("Background.png");# imagem como plano de fundo 
-    background-repeat: no-repeat;#imagem repetir apenas uma vez 
-    background-size: contain;#tamanho do plano de fundo
-    align-items: center;#alinhemento de elementos
-    text-align: center;#alinhamento de textos 
+    background-image: url("Background.png");/*# imagem como plano de fundo*/
+    background-repeat: no-repeat;#imagem repetir apenas uma vez*/
+    background-size: contain;#tamanho do plano de fundo*/
+    align-items: center;#alinhemento de elementos*/
+    text-align: center;#alinhamento de textos*/
 }
 
 .container {
-    height: 100vh;#altura
-    display: grid;#organiza os elementos 
-    grid-template-columns: 50% 50%;#duas colunasde 50%
+    height: 100vh;#altura*/
+    display: grid;#organiza os elementos*/
+    grid-template-columns: 50% 50%;#duas colunasde 50%*/
 }
 
 .container__botao {
-    background-color: var(--botao-azul);#cor de fundo
-    border-radius: 5px;#cantos arrendondados
-    padding: 1em;#espaçamento interno
-    color: var(--branco-principal);#cor da fonte
-    display: block;#organiza os elementos
-    text-decoration: none;#reseta decoração de textos
-    margin-bottom: 1em;#margem inferior
+    background-color: var(--botao-azul);/*#cor de fundo*/
+    border-radius: 5px;/*#cantos arrendondados*/
+    padding: 1em;/*#espaçamento interno*/
+    color: var(--branco-principal);/*#cor da fonte*/
+    display: block;/*#organiza os elementos*/
+    text-decoration: none;/*#reseta decoração de textos*/
+    margin-bottom: 1em;/*#margem inferior*/
 }
 
 .botao_secundario {
-    background-color: transparent;#cor de fundo 
+    background-color: transparent;#cor de fundo*/
     border: 2px solid var(--branco-principal)
 }
 
